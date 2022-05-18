@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: 'Mulish', sans-serif;
+}
+
+.navbar {
+    background: #5957eb;
+    padding: 10px;
+}
+
+.nav-item, .action-form, input {
+    margin: 5px 10px;
+}
+
+.navbar-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item {
+    list-style-type: none;
+    margin: 5px 10px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+main {
+    padding: 5px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, button {
+    padding: 5px;
+    font-family: 'Mulish', sans-serif;
+}
+
+button {
+    margin: 0 auto;
+}

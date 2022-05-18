@@ -1,0 +1,14 @@
+extends layouts/layout.pug 
+
+block content
+    if userData.length > 0
+        table(border="1")
+            tr 
+                th Name 
+                th Username
+            each user in userData
+                tr
+                    td #{user.name}
+                    td #{user.username}
+    else
+        h1 No data available
